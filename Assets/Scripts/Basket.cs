@@ -4,27 +4,12 @@ using UnityEngine;
 
 public class Basket : MonoBehaviour
 {
-    [SerializeField] int selection;
+    [SerializeField] Item itemScriptableObject;
     [SerializeField] Wallet wallet;
 
-    public int Selection
+    public Item Item
     {
-        get { return selection; }
-        set { selection = value; }
-    }
-
-    void OnEnable()
-    {
-        ItemCard.OnPlayerItemConsideration += LogSelection;
-    }
-
-    void OnDisable()
-    {
-        ItemCard.OnPlayerItemConsideration -= LogSelection;
-    }
-
-    void LogSelection()
-    {
-        Debug.Log(selection);
+        get { return itemScriptableObject; }
+        set { itemScriptableObject = value; }
     }
 }

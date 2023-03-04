@@ -35,7 +35,7 @@ public class ItemCard : MonoBehaviour, ISelectHandler
 
     public void OnSelect(BaseEventData eventData)
     {
-        if (basket !=null) basket.Selection = (int) itemScriptableObject?.itemType;
+        if (basket != null) basket.Item = itemScriptableObject;
         OnPlayerItemConsideration?.Invoke();
     }
 
@@ -68,10 +68,5 @@ public class ItemCard : MonoBehaviour, ISelectHandler
 
         if (displayBackpackStatusText != null)
             displayBackpackStatusText.text = inBackpack ? "B" : "";
-    }
-
-    public void LogInfo()
-    {
-        //Debug.Log(name + " selected");
     }
 }

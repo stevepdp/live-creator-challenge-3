@@ -16,4 +16,5 @@ MonoBehaviour:
   name: Heart
   cost: 10
   color: {r: 1, g: 0.3160377, b: 0.3160377, a: 0}
-  icon: {fileID: 0}
+  image: {fileID: 0}
+  backpackStatus: 0

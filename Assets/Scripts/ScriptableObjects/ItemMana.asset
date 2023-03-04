@@ -16,4 +16,5 @@ MonoBehaviour:
   name: Mana
   cost: 10
   color: {r: 0.3176471, g: 0.6843146, b: 1, a: 0}
-  icon: {fileID: 0}
+  image: {fileID: 0}
+  backpackStatus: 0

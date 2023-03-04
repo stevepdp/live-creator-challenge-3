@@ -16,4 +16,5 @@ MonoBehaviour:
   name: Sword
   cost: 50
   color: {r: 0.6132076, g: 0.6132076, b: 0.6132076, a: 0}
-  icon: {fileID: 0}
+  image: {fileID: 0}
+  backpackStatus: 0
