@@ -16,4 +16,5 @@ MonoBehaviour:
   name: Bow
   cost: 50
   color: {r: 0.6415094, g: 0.317939, b: 0.09380562, a: 0}
-  icon: {fileID: 0}
+  image: {fileID: 0}
+  backpackStatus: 0

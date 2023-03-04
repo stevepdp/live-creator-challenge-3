@@ -1,17 +1,22 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class ItemCard : MonoBehaviour
+public class ItemCard : MonoBehaviour, ISelectHandler
 {
+    public static event Action OnPlayerItemConsideration;
+
     [SerializeField] TMP_Text displayNameText;
     [SerializeField] Image displayImage;
     [SerializeField] TMP_Text displayCostText;
     [SerializeField] TMP_Text displayBackpackStatusText;
     [SerializeField] Item itemScriptableObject;
+    [SerializeField] Basket basket;
 
     new string name;
     Image image;
@@ -27,6 +32,12 @@ public class ItemCard : MonoBehaviour
     }
         
     void Start() => ShowCard();
+
+    public void OnSelect(BaseEventData eventData)
+    {
+        if (basket !=null) basket.Selection = (int) itemScriptableObject?.itemType;
+        OnPlayerItemConsideration?.Invoke();
+    }
 
     void SetCard()
     {
@@ -57,5 +68,10 @@ public class ItemCard : MonoBehaviour
 
         if (displayBackpackStatusText != null)
             displayBackpackStatusText.text = inBackpack ? "B" : "";
-    }   
+    }
+
+    public void LogInfo()
+    {
+        //Debug.Log(name + " selected");
+    }
 }
