@@ -53,7 +53,7 @@ public class Wallet : MonoBehaviour
                 gold -= itemScriptableObject.cost;
                 itemScriptableObject.backpackStatus = true;
                 OnWalletChange?.Invoke();
-                OnPlayerBoughtItem?.Invoke(); // todo: update backpack in UI, update funds on UI
+                OnPlayerBoughtItem?.Invoke();
             }
             else
             {

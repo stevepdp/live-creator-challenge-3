@@ -25,8 +25,8 @@ public class ShopOwner : MonoBehaviour
     void OnDisable()
     {
         ItemCard.OnPlayerItemConsideration -= SpeakItemConsideration;
-        Wallet.OnPlayerBoughtItem += SpeakThanks;
-        Wallet.OnPlayerCantAffordIt += SpeakPlayerCantAfford;
+        Wallet.OnPlayerBoughtItem -= SpeakThanks;
+        Wallet.OnPlayerCantAffordIt -= SpeakPlayerCantAfford;
     }
 
     IEnumerator ClearDialog()
@@ -48,6 +48,6 @@ public class ShopOwner : MonoBehaviour
     void SpeakThanks()
     {
         shopOwnerSpeakText.text = "Thanks! Enjoy the " + basket?.Item.name + ".";
-        //StartCoroutine(ClearDialog());
+        StartCoroutine(ClearDialog());
     }
 }
