@@ -17,4 +17,4 @@ MonoBehaviour:
   cost: 25
   color: {r: 0.23092759, g: 1, b: 0, a: 0}
   image: {fileID: 0}
-  backpackStatus: 0
+  backpackStatus: 1

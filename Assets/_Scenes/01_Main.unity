@@ -130,6 +130,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 148481466}
     m_Modifications:
+    - target: {fileID: 144976876, guid: dc684ed0307166a47a628c5fbbd62ab9, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 144976876, guid: dc684ed0307166a47a628c5fbbd62ab9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a33bc3c20aa7a69478687a0cfd7ea626, type: 3}
     - target: {fileID: 5324757942394064169, guid: dc684ed0307166a47a628c5fbbd62ab9, type: 3}
       propertyPath: basket
       value: 
@@ -382,6 +390,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 148481466}
     m_Modifications:
+    - target: {fileID: 144976876, guid: dc684ed0307166a47a628c5fbbd62ab9, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 144976876, guid: dc684ed0307166a47a628c5fbbd62ab9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0692031be4e907a49ab4687c6b114fb0, type: 3}
     - target: {fileID: 5324757942394064169, guid: dc684ed0307166a47a628c5fbbd62ab9, type: 3}
       propertyPath: basket
       value: 
@@ -737,11 +753,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ReferenceResolution: {x: 1280, y: 720}
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -760,7 +776,7 @@ Canvas:
   m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
@@ -1220,6 +1236,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 148481466}
     m_Modifications:
+    - target: {fileID: 144976876, guid: dc684ed0307166a47a628c5fbbd62ab9, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 144976876, guid: dc684ed0307166a47a628c5fbbd62ab9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0f04e049035f2ec49ab1e4e44f42d218, type: 3}
     - target: {fileID: 5324757942394064169, guid: dc684ed0307166a47a628c5fbbd62ab9, type: 3}
       propertyPath: basket
       value: 
@@ -1330,6 +1354,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 148481466}
     m_Modifications:
+    - target: {fileID: 144976876, guid: dc684ed0307166a47a628c5fbbd62ab9, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 144976876, guid: dc684ed0307166a47a628c5fbbd62ab9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a9ed13a1f15eb8c47afe96dc9beef22b, type: 3}
     - target: {fileID: 5324757942394064169, guid: dc684ed0307166a47a628c5fbbd62ab9, type: 3}
       propertyPath: basket
       value: 
@@ -1847,6 +1879,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 148481466}
     m_Modifications:
+    - target: {fileID: 144976876, guid: dc684ed0307166a47a628c5fbbd62ab9, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 144976876, guid: dc684ed0307166a47a628c5fbbd62ab9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8f2541ce79bdc7c4791229545597943b, type: 3}
     - target: {fileID: 5324757942394064169, guid: dc684ed0307166a47a628c5fbbd62ab9, type: 3}
       propertyPath: basket
       value: 
@@ -2092,6 +2132,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 148481466}
     m_Modifications:
+    - target: {fileID: 144976876, guid: dc684ed0307166a47a628c5fbbd62ab9, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 144976876, guid: dc684ed0307166a47a628c5fbbd62ab9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0ce213b0d77e83341a0f452fd4c69a1a, type: 3}
     - target: {fileID: 5324757942394064169, guid: dc684ed0307166a47a628c5fbbd62ab9, type: 3}
       propertyPath: basket
       value: 
