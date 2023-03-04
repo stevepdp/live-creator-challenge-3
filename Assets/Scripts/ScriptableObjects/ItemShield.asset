@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8bbc6ead9573f2439d168487f6d2e7a, type: 3}
   m_Name: ItemShield
   m_EditorClassIdentifier: 
-  itemType: 4
-  name: Sheild
+  itemType: 5
+  name: Shield
   cost: 50
   color: {r: 0.41509432, g: 0.41509432, b: 0.41509432, a: 0}
-  icon: {fileID: 0}
+  image: {fileID: 0}
+  backpackStatus: 0
